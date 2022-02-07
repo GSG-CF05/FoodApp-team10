@@ -1,0 +1,144 @@
+
+/* fonts */
+
+@import url("http://fonts.cdnfonts.com/css/recoleta");
+@import url('http://fonts.cdnfonts.com/css/cera-pro');
+
+/* reset rules */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+/* header styling */
+
+.header {
+  position: relative;
+  font-size: 0;
+}
+
+.header .back, 
+.header .heart {
+  background-color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.75rem;
+}
+
+.header .back {
+  color: #000;
+  left: 1rem;
+  font-size: 1rem;
+}
+
+.header .heart {
+  color: #f00;
+  right: 1rem;
+  font-size: 1.5rem;
+}
+
+.header img {
+  width: 100%;
+}
+
+/* main styling */
+
+.container {
+  width: 92%;
+  margin: auto;
+}
+
+/* Description styling */
+
+.description {
+  background-color: #E5E5E5;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: relative;
+  top: -3.8rem;
+}
+
+.description form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem 0.25rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #F2F3F4;
+}
+
+.description form input[type="search"] {
+  border: none;
+  background-color: #F2F3F4;
+  width: 80%;
+}
+
+.description form input[type="search"]:focus {
+  outline: none;
+}
+
+.description form .add-recipe{
+  background-color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+.description .title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.15rem;
+}
+
+.description .rating {
+  font-family: 'cera pro';
+  font-weight: normal;
+  font-size: 14px;
+  color: #636773;
+}
+
+.description .rating p i{
+  color: orange;
+}
+
+.description .features {
+  background-color: #fff;
+  padding: 1rem 1rem 0.5rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'cera pro';
+  font-weight: normal;
+}
+
+.description .features i {
+  color: orange;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.description .features > *{
+  flex-basis: calc(100% / 3);
+}
+
+.description .features > *:not(:last-child) {
+  border-right: 1px solid #E1E2E3;
+}
