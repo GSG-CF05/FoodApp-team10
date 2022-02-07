@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    font-size: 1.3rem;
+}
+.prev{
+    color: #000000;
+    font-size: 2rem;
+}
+.nav-header{
+    border-bottom: 1px solid #b3b3b3;
+}
+.title{
+    display: flex;
+    padding-top: 8px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #b3b3b3;
+}
+.heading h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    margin: 0 auto;
+}
+.filter {
+    width: 25%;
+    padding: 13px 14px 2px 2px;
+    border-right: 1px solid #b3b3b352;
+    text-align: center;
+    color: #3b3b5ab7;
+}
+.filter i{
+    color: #3b3b5ab7;
+    padding-right: 3px;
+}
+.scroll {
+    width: 75%;
+}
+.item {
+    padding: 10px 14px 2px 10px;
+    font-size: 1.3rem;
+}
+.nav-header a {
+    text-decoration: none;
+    color: #343435;
+}
+.nav-header a:hover{
+    color: #FF8527;
+
+}
+.filter,.item,.scroll {
+    display: inline-block;
+}
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
