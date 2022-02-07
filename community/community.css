@@ -9,6 +9,7 @@ header{
 .prev{
     color: #000000;
     font-size: 2rem;
+    margin-left:20px ; margin-top: -5px;
 }
 .nav-header{
     border-bottom: 1px solid #b3b3b3;
