@@ -73,6 +73,36 @@ header{
     margin: 15px 0px 0px 12px;
 
 }
+.categories .first {
+    position: absolute;
+    left: 160px;
+    top: 250px;
+}
+.categories .second {
+    position: absolute;
+    left: 360px;
+    top: 250px;
+}
+.categories .third {
+    position: absolute;
+    left: 160px;
+    top: 566px;
+}
+.categories .fourth {
+    position: absolute;
+    left: 360px;
+    top: 566px;
+}
+.categories .fifth {
+    position: absolute;
+    left: 160px;
+    top: 875px;
+}
+.categories .sixth {
+    position: absolute;
+    left: 360px;
+    top: 875px;
+}
 .categories h1{
     font-size: 1.5rem;
     padding: 4px 0px 4px 3px;
@@ -83,6 +113,7 @@ header{
     padding-right: 3px;
     width: 180px;
     height: 180px;
+    position: relative;
 }
 .people img{
     width: 50px;
@@ -95,4 +126,9 @@ header{
 .people h3 , span{
     padding-left:60px ;
     margin-top: -50px;
+    font-family: sans-serif;
+
+}
+.people h3{
+    font-size: 1rem;
 }
