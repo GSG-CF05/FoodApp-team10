@@ -130,6 +130,7 @@ header {
 }
 /* Icons section */
 .icons {
+  width: 100%;
   margin: 30px 0px 0px;
   display: flex;
   flex-wrap: wrap;
@@ -155,14 +156,13 @@ header {
 }
 
 .box3 {
-  justify-content: space-around;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .google-box {
   position: relative;
   bottom: -10px;
-  left: -15px;
+  left: 5px;
 }
 
 .boxes {
@@ -182,7 +182,7 @@ h5 {
 
 .g-title {
   position: relative;
-  right: 50px;
+  right: -9px;
 }
 /* Condition section  */
 
@@ -197,4 +197,109 @@ p {
   font-style: normal;
   line-height: 20px;
   font-size: 16px;
+}
+
+/* Media Queries for tablets and laptops*/
+
+@media only screen and (min-width: 786px) {
+  html {
+    font-size: 24px;
+  }
+
+  .auth-space {
+    background: #fff;
+    height: 1180px;
+    margin-top: 3rem;
+    width: 100%;
+  }
+
+  .heading-img {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    bottom: 20px;
+  }
+
+  .btn,
+  h5,
+  p {
+    font-size: 24px;
+  }
+
+  .g-title {
+    position: relative;
+    right: 25px;
+  }
+
+  .arrow {
+    position: relative;
+    top: -79px;
+    right: -89px;
+  }
+
+  .num {
+    position: relative;
+    top: -59px;
+  }
+
+  .box3 {
+    justify-content: space-around;
+    margin-left: 120px;
+  }
+  
+  .box2{
+    margin-left: 140px;
+  }
+
+  .box {
+    padding-left: 210px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (min-height: 488px) {
+  html {
+    font-size: 14px;
+  }
+  body {
+    width: 100%;
+    background-image: url('./assets/Rectangle\ 13@3x.png');
+    background-size: cover;
+  }
+
+  .auth-space {
+    background: #fff;
+    height: 650Px;
+    margin-top: 3rem;
+    margin-left: 33rem;
+    width: 30%;
+    border-radius: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+
+  header {
+    display: none;
+  }
+
+  .btn,
+  h5,
+  p {
+    font-size: 14px;
+  }
+
+  .arrow {
+    position: relative;
+    top: -79px;
+    right: -70px;
+  }
+
+  .box2{
+    margin-left: 0px;
+  }
+
+  .box {
+    padding-left: 95px;
+  }
+
+  .box3 {
+    margin-left: 35px;
+  }
 }
