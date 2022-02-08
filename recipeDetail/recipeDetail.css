@@ -1,4 +1,3 @@
-
 /* fonts */
 
 @import url("http://fonts.cdnfonts.com/css/recoleta");
@@ -103,7 +102,7 @@ body {
 .description .title {
   margin-top: 1rem;
   margin-bottom: 1rem;
-  letter-spacing: 0.15rem;
+  font-size: 1.2rem;
 }
 
 .description .rating {
@@ -142,3 +141,104 @@ body {
 .description .features > *:not(:last-child) {
   border-right: 1px solid #E1E2E3;
 }
+
+/* reviews styling */
+.reviews {
+  font-family: 'cera pro';
+  padding: 1rem;
+  background-color: #fff;
+  position: relative;
+  top: -3.8rem;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.reviews .title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.reviews .title h5 {
+  text-transform: uppercase;
+  color: orange;
+}
+
+.reviews .content {
+  margin: 1rem 0;
+}
+
+.reviews .content .reviewer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews .content .reviewer .heart {
+  align-self: center;
+  color: #B3B4BA;
+}
+
+.reviews .content .reviewer .user {
+  display: flex;
+  align-items: flex-start;
+}
+
+.reviews .content .reviewer .user img {
+  margin: 0 0.5rem 0 0;
+}
+
+.reviews .content .reviewer .user .about {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews .content .reviewer .user .about .user-name {
+  font-size: 0.92rem;
+  font-weight: bold;
+}
+
+.reviews .content .reviewer .user .about .time {
+  font-size: 0.6rem;
+  color: #7B8292;
+}
+
+.reviews .content .comment {
+  margin: 0.5rem 0 0.5rem 2.4rem;
+  font-size: 0.92rem;
+}
+
+/* buttons styling */
+.buttons {
+  position: fixed;
+  bottom: 21px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons > * {
+  font-size: 1.4rem;
+}
+
+.end {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 8px 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.end .bar {
+  background-color: #000;
+  border-radius: 100px;
+  width: 134px;
+  height: 5px;
+}
+
