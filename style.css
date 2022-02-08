@@ -141,6 +141,7 @@ header {
 .box3 {
   display: flex;
   background: #fff;
+  justify-content: center;
   border: 1px solid #b3b3b3;
   border-radius: 12px;
   height: 56px;
@@ -161,8 +162,8 @@ header {
 
 .google-box {
   position: relative;
-  bottom: -10px;
-  left: 5px;
+  bottom: -12px;
+  left: -25px;
 }
 
 .boxes {
@@ -182,12 +183,12 @@ h5 {
 
 .g-title {
   position: relative;
-  right: -9px;
+  right: 15px;
 }
 /* Condition section  */
 
 .condition {
-  margin: 90px 0px;
+  margin: 40px 0px;
   text-align: center;
 }
 
@@ -196,7 +197,7 @@ p {
   font-weight: normal;
   font-style: normal;
   line-height: 20px;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 /* Media Queries for tablets and laptops*/
@@ -243,16 +244,11 @@ p {
   }
 
   .box3 {
-    justify-content: space-around;
     margin-left: 120px;
   }
-  
-  .box2{
-    margin-left: 140px;
-  }
 
-  .box {
-    padding-left: 210px;
+  .box2 {
+    margin-left: 140px;
   }
 }
 
@@ -262,13 +258,13 @@ p {
   }
   body {
     width: 100%;
-    background-image: url('./assets/Rectangle\ 13@3x.png');
+    background-image: url("./assets/Rectangle\ 13@3x.png");
     background-size: cover;
   }
 
   .auth-space {
     background: #fff;
-    height: 650Px;
+    height: 650px;
     margin-top: 3rem;
     margin-left: 33rem;
     width: 30%;
@@ -291,15 +287,21 @@ p {
     right: -70px;
   }
 
-  .box2{
+  .box2 {
     margin-left: 0px;
   }
 
-  .box {
-    padding-left: 95px;
-  }
 
   .box3 {
     margin-left: 35px;
+  }
+
+  .num {
+    top: -52px;
+  }
+
+  .arrow {
+    top: -75px;
+    right: -70px;
   }
 }
