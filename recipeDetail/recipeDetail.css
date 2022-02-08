@@ -42,7 +42,7 @@ body {
 }
 
 .header .heart {
-  color: #f00;
+  color: orange;
   right: 1rem;
   font-size: 1.5rem;
 }
