@@ -1,0 +1,249 @@
+/* fonts */
+
+@import url("http://fonts.cdnfonts.com/css/recoleta");
+@import url('http://fonts.cdnfonts.com/css/cera-pro');
+
+/* reset rules */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #E5E5E5;
+}
+
+/* header styling */
+
+.header {
+  position: relative;
+  font-size: 0;
+}
+
+.header .back, 
+.header .heart {
+  background-color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 3.75rem;
+}
+
+.header .back {
+  color: #000;
+  left: 1rem;
+  font-size: 1rem;
+}
+
+.header .heart {
+  color: orange;
+  right: 1rem;
+  font-size: 1.5rem;
+}
+
+.header img {
+  width: 100%;
+}
+
+/* main styling */
+
+.container {
+  width: 92%;
+  margin: auto;
+}
+
+/* Description styling */
+
+.description {
+  background-color: #E5E5E5;
+  padding: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  position: relative;
+  top: -3.8rem;
+}
+
+.description form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.25rem 0.5rem 0.25rem 1rem;
+  border-radius: 0.5rem;
+  background-color: #F2F3F4;
+}
+
+.description form input[type="search"] {
+  border: none;
+  background-color: #F2F3F4;
+  width: 80%;
+}
+
+.description form input[type="search"]:focus {
+  outline: none;
+}
+
+.description form .add-recipe{
+  background-color: #fff;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  color: #000;
+}
+
+.description .title {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+.description .rating {
+  font-family: 'cera pro';
+  font-weight: normal;
+  font-size: 14px;
+  color: #636773;
+}
+
+.description .rating p i{
+  color: orange;
+}
+
+.description .features {
+  background-color: #fff;
+  padding: 1rem 1rem 0.5rem;
+  margin: 1rem 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1rem;
+  font-family: 'cera pro';
+  font-weight: normal;
+}
+
+.description .features i {
+  color: orange;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.description .features > *{
+  flex-basis: calc(100% / 3);
+}
+
+.description .features > *:not(:last-child) {
+  border-right: 1px solid #E1E2E3;
+}
+
+/* reviews styling */
+.reviews {
+  font-family: 'cera pro';
+  padding: 1rem;
+  background-color: #fff;
+  position: relative;
+  top: -3.8rem;
+  border-radius: 1rem;
+  margin-bottom: 2.4rem;
+}
+
+.reviews .title {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+}
+
+.reviews .title h5 {
+  text-transform: uppercase;
+  color: orange;
+}
+
+.reviews .title h5 a {
+  text-decoration: none;
+  color: orange;
+}
+
+.reviews .content {
+  margin: 1rem 0;
+}
+
+.reviews .content .reviewer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reviews .content .reviewer .heart {
+  align-self: center;
+  color: #B3B4BA;
+}
+
+.reviews .content .reviewer .user {
+  display: flex;
+  align-items: flex-start;
+}
+
+.reviews .content .reviewer .user img {
+  margin: 0 0.5rem 0 0;
+}
+
+.reviews .content .reviewer .user .about {
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews .content .reviewer .user .about .user-name {
+  font-size: 0.92rem;
+  font-weight: bold;
+}
+
+.reviews .content .reviewer .user .about .time {
+  font-size: 0.6rem;
+  color: #7B8292;
+}
+
+.reviews .content .comment {
+  margin: 0.5rem 0 0.5rem 2.4rem;
+  font-size: 0.92rem;
+}
+
+/* buttons styling */
+.buttons {
+  position: fixed;
+  bottom: 21px;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.buttons > * {
+  font-size: 1.4rem;
+}
+
+.end {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 8px 120px;
+  display: flex;
+  justify-content: center;
+}
+
+.end .bar {
+  background-color: #000;
+  border-radius: 100px;
+  width: 134px;
+  height: 5px;
+}
+

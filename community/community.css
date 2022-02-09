@@ -1,0 +1,310 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    font-size: 1.3rem;
+}
+.prev{
+    color: #000000;
+    font-size: 2rem;
+    margin-left:20px ; margin-top: -5px;
+}
+.nav-header{
+    border-bottom: 1px solid #b3b3b3;
+}
+.title{
+    display: flex;
+    padding-top: 8px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #b3b3b3;
+}
+.heading h1{
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    margin: 0 auto;
+}
+.filter {
+    width: 25%;
+    padding: 13px 14px 2px 2px;
+    border-right: 1px solid #b3b3b352;
+    text-align: center;
+    color: #3b3b5ab7;
+}
+.filter i{
+    color: #3b3b5ab7;
+    padding-right: 3px;
+}
+.scroll {
+    width: 75%;
+}
+.item {
+    padding: 10px 14px 2px 10px;
+    font-size: 1.3rem;
+}
+.nav-header a {
+    text-decoration: none;
+    color: #343435;
+}
+.scroll #orange{
+    color: rgb(231, 157, 18);
+}
+.filter,.item,.scroll {
+    display: inline-block;
+}
+.scroll {
+    white-space: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+}
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+.categories{
+    display:inline-block;
+    width:min-content;
+    height:fit-content;
+    border-radius: 10px;
+    padding: 0;
+    margin: 15px 0px 0px 12px;
+
+}
+.categories .first {
+    position: absolute;
+    left: 160px;
+    top: 250px;
+}
+.categories .second {
+    position: absolute;
+    left: 360px;
+    top: 250px;
+}
+.categories .third {
+    position: absolute;
+    left: 160px;
+    top: 566px;
+}
+.categories .fourth {
+    position: absolute;
+    left: 360px;
+    top: 566px;
+}
+.categories .fifth {
+    position: absolute;
+    left: 160px;
+    top: 875px;
+}
+.categories .sixth {
+    position: absolute;
+    left: 360px;
+    top: 875px;
+}
+.categories h1{
+    font-size: 1.5rem;
+    padding: 4px 0px 4px 3px;
+    width: 180px;
+}
+.categories img{
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 180px;
+    height: 180px;
+    position: relative;
+}
+.people img{
+    width: 50px;
+    height: 50px;
+}
+.people{
+    display: inline-flexbox;
+    padding-bottom: 8px;
+}
+.people h3 , span{
+    padding-left:60px ;
+    margin-top: -50px;
+    font-family: sans-serif;
+
+}
+.people h3{
+    font-size: 1rem;
+}
+@media screen and (min-width: 481px) and (max-width:820px) {
+    .title h1 , .prev{
+        font-size: 2.5rem;
+
+    }
+    .title {
+       
+        padding-top: 10px;
+        margin-bottom: 17px;
+        padding-bottom: 17px;
+      
+    }
+    .filter{
+        padding: 15px 14px 2px 10px;
+        font-size: 2rem;
+    }
+    .item {
+        padding: 15px 14px 2px 10px;
+        font-size: 2rem;
+    }
+    .categories{
+        padding-top: 50px;
+    }
+    .categories img{
+        padding-left: 10px;
+        padding-right: 3px;
+        width: 239px;
+        height: 239px;
+    }
+    .categories h1{
+        font-size: 1.9rem;
+        width: 244px;
+    }
+    .people img{
+        width: 63px;
+        height: 63px;
+    }
+    .people h3 , span{
+        padding-left:85px ;
+        margin-top: -64px;
+    
+    }
+    .people h3{
+        font-size: 1.5rem;
+    }
+    .people{
+        padding-bottom: 25px;
+    }
+    .categories .first {
+        position: absolute;
+        left: 207px;
+        top: 394px;
+        font-size:35px;
+        
+    }
+    .categories .second {
+        position: absolute;
+        left: 475px;
+        top: 394px;
+        font-size:35px;
+    }
+    .categories .third {
+        position: absolute;
+        left: 746px;
+        top: 394px;
+        font-size:35px;
+    }
+    .categories .fourth {
+        position: absolute;
+        left: 207px;
+        top: 860px;
+        font-size:35px;
+    }
+    .categories .fifth {
+        position: absolute;
+        left: 475px;
+        top: 860px;
+        font-size:35px;
+    }
+    .categories .sixth {
+        position: absolute;
+        left: 746px;
+        top: 860px;
+        font-size:35px;
+    }
+    
+}
+@media  screen and (min-width: 821px) {
+    .nav-header{
+    padding-left: 270px;
+
+    }
+    .categories{
+        padding-bottom: 20px;
+    }
+    .filter {
+        width: 10%;
+        padding: 13px 14px 2px 2px;
+        text-align:center;
+        font-size: 1.7rem;
+
+    }
+    .item {
+        padding: 15px 14px 15px 10px;
+        font-size: 1.7rem;
+    }
+    .content{
+        padding-top: 50px;
+        padding-left: 270px;
+
+    }
+    .categories img{
+        padding-left: 5px;
+        padding-right: 3px;
+        width: 400px;
+        height: 400px;
+    }
+   
+        .people img{
+        width: 60px;
+        height: 60px;
+    }
+    .people h3 , span{
+        padding-left:75px ;
+        margin-top: -53px;
+        font-size: 0.8rem;
+    
+    }
+    .title h1{
+        padding-top: 15px;
+        margin-bottom: 15px;
+        font-size: 2.2rem;
+    }
+    .categories h1{
+        text-align: center;
+        width:260px;
+        padding-left: 65px;
+    }
+    .categories .first {
+        position: absolute;
+        left: 630px;
+        top: 560px;
+        font-size:35px;
+        
+    }
+    .categories .second {
+        position: absolute;
+        left: 1046px;
+        top: 560px;
+        font-size:35px;
+    }
+    .categories .third {
+        position: absolute;
+        left: 630px;
+        top: 1110px;
+        font-size:35px;
+    }
+    .categories .fourth {
+        position: absolute;
+        left: 1046px;
+        top: 1110px;
+        font-size:35px;
+    }
+    .categories .fifth {
+        position: absolute;
+        left: 630px;
+        top: 1670px;
+        font-size:35px;
+    }
+    .categories .sixth {
+        position: absolute;
+        left: 1046px;
+        top: 1670px;
+        font-size:35px;
+    }
+
+}
