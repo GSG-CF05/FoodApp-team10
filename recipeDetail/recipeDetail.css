@@ -164,6 +164,11 @@ body {
   color: orange;
 }
 
+.reviews .title h5 a {
+  text-decoration: none;
+  color: orange;
+}
+
 .reviews .content {
   margin: 1rem 0;
 }
