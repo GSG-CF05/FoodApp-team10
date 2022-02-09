@@ -247,3 +247,36 @@ body {
   height: 5px;
 }
 
+@media screen and (min-width: 1200px) {
+  .buttons, .end {
+    display: none;
+  }
+
+  .parent {
+    width: 95%;
+    min-height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .parent .container {
+    flex-basis: 40%;
+    margin: 0;
+}
+
+  .header {
+    display: flex;
+  }
+
+  .header img {
+    height: 80vh;
+  }
+
+  .parent .container .reviews {
+    margin-top: 200px;
+  }
+
+}
