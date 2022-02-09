@@ -16,7 +16,7 @@
 - shere hobbies
 
 ## What is Food app?
- An online food app makes the users be able to make accounts and start to post their recipe details or search for recipes.and the ability to order to have their shop deliver all the ingredients required
+ An online food app makes the users be able to make accounts and start to post their recipe details or search for recipes.and the ability to order to have their own shop deliver all the ingredients required
 
 ## How we have created this app?
  Throughout the journey to the completion of the food app.
