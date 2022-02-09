@@ -1,0 +1,182 @@
+
+* {
+  padding: 0;
+  margin: auto;
+  box-sizing: border-box;
+}
+.background {
+  /* width: 100%; */
+  height: 333.15px;
+  background-image: url("media/back.png");
+  background-size: cover;
+}
+.navIcons {
+  top: 60.09px;
+  left: 16px;
+  display: flex;
+}
+.arrow,
+.pen {
+  height: 48px;
+  background: rgb(83, 66, 66);
+  border-radius: 100px;
+}
+
+.accountDetails {
+  background: rgb(248, 244, 244);
+  margin: 0px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile img {
+  height: 106.74px;
+  position: relative;
+  top: -45px;
+}
+
+.btns {
+  margin-top: 5%;
+}
+
+.posts,
+.reviews {
+  border-radius: 20px;
+  border: aliceblue;
+  padding: 10px 45px;
+}
+
+.reviews {
+  background-color: #ff8527;
+  color: white;
+}
+
+.revMenue {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 12rem;
+}
+.revEl {
+  display: flex;
+  border-top: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  justify-content: space-between;
+  width: 100%;
+}
+.revEl img {
+  margin: 0.2rem;
+}
+
+.photoDetails {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  font-size: 0.7rem;
+}
+
+.revTitle {
+  width: 100%;
+  display: flex;
+}
+
+/* Responsive design to fit Desktop Screens */
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  * {
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+  }
+  .background {
+    /* width: 100%; */
+    height: 333.15px;
+    background-image: url("media/back.png");
+    background-size: cover;
+  }
+  .navIcons {
+    top: 60.09px;
+    left: 16px;
+    display: flex;
+  }
+  .arrow,
+  .pen {
+    height: 48px;
+    background: rgb(83, 66, 66);
+    border-radius: 100px;
+  }
+  
+  .accountDetails {
+    background: rgb(248, 244, 244);
+    margin: 0px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile img {
+    height: 106.74px;
+    position: relative;
+    top: -45px;
+  }
+  
+  .btns {
+    margin-top: 5%;
+  }
+  
+  .posts,
+  .reviews {
+    border-radius: 20px;
+    border: aliceblue;
+    padding: 10px 45px;
+  }
+  
+  .reviews {
+    background-color: #ff8527;
+    color: white;
+  }
+  
+  .revMenue {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 12rem;
+  }
+  .revEl {
+    display: flex;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .revEl img {
+    margin: 0.2rem;
+  }
+  
+  .photoDetails {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    font-size: 0.7rem;
+  }
+  
+  .revTitle {
+    width: 100%;
+    display: flex;
+  }
+}
