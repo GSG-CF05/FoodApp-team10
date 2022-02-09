@@ -13,14 +13,14 @@
 ## Why we created this ?
 - allowing people to achieve their dreams and become a chef
 - work in a team
-- shere habbits
+- shere hobbies
 
 ## What is Food app?
- An online food app makes the users be able to make accounts and start to post them Recipe Detail or search for Recipes and the ability to order to have their shop deliver all the ingredients required
+ An online food app makes the users be able to make accounts and start to post their recipe details or search for recipes.and the ability to order to have their shop deliver all the ingredients required
 
 ## How we have created this app?
  Throughout the journey to the completion of the food app.
-  the team have learned a lot on these project :
+  the team have learned a lot on this project :
  - Teamwork 
  - Git and Github
  - Responsive Web Design
